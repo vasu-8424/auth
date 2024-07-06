@@ -1,0 +1,71 @@
+
+
+
+
+
+.parent {
+   display: flex;
+   background-color: rgb(168, 97, 97);
+   justify-content: center; /* Center the containers horizontally */
+   align-items: center; /* Center the containers vertically */
+   height: 100vh; /* Full viewport height */
+   gap: 20px; /* Space between containers */
+}
+
+.info-container {
+   flex: 1;
+   max-width: 300px; /* Maximum width for each container */
+   background-color: skyblue;
+   padding: 25px 30px;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 5);
+   transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.info-container:hover{
+   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.container1 {
+   height: 75vh; /* Height for the first container */
+  
+}
+
+.container2 {
+   height: 90vh; /* Height for the second container */
+  
+}
+
+.container3 {
+   height: 75vh; /* Height for the third container */
+  
+}
+
+.heading {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.btnn {
+   height: 40px; /* Adjust height as needed */
+   width: 100%; /* Full width of the container */
+   font-family: "Lucida Console", monospace;
+   font-size: 20px;
+   color: black;
+   cursor: pointer;
+   background-color: skyblue;
+   border: none; /* Remove default border */
+   border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btnn:hover {
+   background-color: #becfe1;
+   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
